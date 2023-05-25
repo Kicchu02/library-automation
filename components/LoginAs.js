@@ -1,12 +1,9 @@
-import { createStackNavigator } from "@react-navigation/stack";
-import { Button, StyleSheet, Text, View } from "react-native";
+import { Text, View } from "react-native";
 
 const LoginAs = () => {
   return (
     <View style={styles.container}>
       <Text>Login As?</Text>
-      <Button title="Student" />
-      <Button title="Admin" />
     </View>
   );
 };

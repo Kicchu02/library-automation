@@ -1,13 +1,12 @@
-import { StyleSheet, Text, View } from "react-native";
-import "react-native-gesture-handler";
+import { Text, View } from "react-native";
 
-export default function App() {
+const Settings = () => {
   return (
     <View style={styles.container}>
-      <Text>Home Page</Text>
+      <Text>Settings</Text>
     </View>
   );
-}
+};
 
 const styles = StyleSheet.create({
   container: {
@@ -17,3 +16,5 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
 });
+
+export default Settings;
