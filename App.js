@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View } from "react-native";
 import "react-native-gesture-handler";
+import LoginAs from "./components/LoginAs";
 
 export default function App() {
   return (
